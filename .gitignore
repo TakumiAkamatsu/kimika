@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+
+# MkDocs build output
+site/
+
+# Local Kimika workspace artifacts (when run from a checkout)
+.mlruns/
+

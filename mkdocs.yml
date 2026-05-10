@@ -1,0 +1,35 @@
+site_name: Kimika
+site_description: Recipe-driven software for computational chemistry and biochemistry.
+repo_url: https://github.com/TakumiAkamatsu/kimika
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: false
+
+nav:
+  - Home: index.md
+  - Getting started: getting_started.md
+  - Concepts: concepts/
+  - Tutorials: tutorials/
+  - Reference: reference/
+  - Developer: developer/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true
