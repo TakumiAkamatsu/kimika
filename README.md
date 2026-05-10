@@ -22,7 +22,7 @@ uv sync --extra dev
 # Verify the CLI works
 uv run kimika --version
 
-# Create a project in the default workspace (~/kimika)
+# Create a project in the default workspace (~/.kimika)
 uv run kimika init my_project
 
 # Launch the Streamlit UI
@@ -38,7 +38,7 @@ uv run kimika ui
 - `docs/` — documentation sources (built with MkDocs).
 
 User-owned experiments live **outside** this repository, under the workspace
-root (default `~/kimika/`). See `CLAUDE.md` for the full design contract.
+root (default `~/.kimika/`). See `CLAUDE.md` for the full design contract.
 
 ## License
 

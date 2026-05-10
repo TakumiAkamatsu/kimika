@@ -25,7 +25,7 @@ from kimika.utils.paths import expand, xdg_config_home
 
 
 def _default_workspace_root() -> Path:
-    return Path.home() / "kimika"
+    return Path.home() / ".kimika"
 
 
 def _default_mlflow_uri(workspace_root: Path) -> str:

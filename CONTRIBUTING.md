@@ -28,7 +28,7 @@ uv run pytest
 
 - Code and experiment data must remain separated. The repository contains
   source code and the official recipe catalog only; user experiments live in
-  the workspace (default `~/kimika/`).
+  the workspace (default `~/.kimika/`).
 - Do not edit recipes in `recipes/` to drive your own experiments — copy them
   into your workspace via `kimika init` instead.
 - Add new dependencies with `uv add <pkg>` (or `uv add --dev <pkg>` for dev
