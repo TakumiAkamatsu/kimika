@@ -1,0 +1,12 @@
+# CODEOWNERS for Kimika.
+#
+# Each line is a file pattern followed by one or more owners.
+# Code owners are automatically requested for review whenever a pull
+# request modifies the matched files, and combined with the
+# "Require review from Code Owners" branch protection rule on `main`
+# their approval becomes a hard requirement for merging.
+#
+# This catch-all rule keeps every file in the repository under the
+# project owner's review until more granular ownership is needed.
+
+* @TakumiAkamatsu
