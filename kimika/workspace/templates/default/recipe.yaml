@@ -1,0 +1,32 @@
+version: "1.0"
+
+project:
+  name: "{{project_name}}"
+  description: "Edit this description."
+  tags: []
+
+# Replace this stub with the system you want to study (XYZ, PDB, SDF, ...).
+system:
+  type: "molecule"
+  source:
+    format: "xyz"
+    path: "inputs/example.xyz"
+  charge: 0
+  multiplicity: 1
+
+# Replace with the task / engine you want to run.
+task:
+  type: "qm.single_point"
+  engine: "pyscf"
+  parameters:
+    method: "B3LYP"
+    basis: "6-31G*"
+
+tracking:
+  backend: "mlflow"
+  experiment_name: "{{project_name}}"
+  log_artifacts: true
+
+output:
+  results_dir: "results"
+  save_wavefunction: false
