@@ -185,10 +185,7 @@ kimika/
 │   ├── docking/
 │   └── ...
 │
-├── examples/                        # クイックスタート用最小例
-│   ├── 01_quickstart_qm/
-│   ├── 02_quickstart_md/
-│   └── 03_streamlit_walkthrough.md
+├── examples/                        # クイックスタート用最小例（中身・順序・命名は実装段階で決定）
 │
 ├── tests/
 │   ├── unit/
