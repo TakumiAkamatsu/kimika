@@ -1,5 +1,6 @@
 site_name: Kimika
 site_description: Recipe-driven software for computational chemistry and biochemistry.
+site_url: https://takumiakamatsu.github.io/kimika/
 repo_url: https://github.com/TakumiAkamatsu/kimika
 docs_dir: docs
 
@@ -22,10 +23,11 @@ plugins:
 nav:
   - Home: index.md
   - Getting started: getting_started.md
-  - Concepts: concepts/
-  - Tutorials: tutorials/
-  - Reference: reference/
-  - Developer: developer/
+  # Re-add the following sections as their first page lands:
+  # - Concepts: concepts/
+  # - Tutorials: tutorials/
+  # - Reference: reference/
+  # - Developer: developer/
 
 markdown_extensions:
   - admonition
