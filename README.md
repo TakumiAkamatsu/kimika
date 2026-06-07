@@ -42,4 +42,12 @@ root (default `~/.kimika/`). See `CLAUDE.md` for the full design contract.
 
 ## License
 
-To be decided.
+Kimika is distributed under the [GNU General Public License v3.0 or
+later](LICENSE) (`GPL-3.0-or-later`). You are free to use, study, modify,
+and redistribute it under the terms of that license. In particular, any
+distributed derivative work must also be released under the same license
+and ship its complete corresponding source code.
+
+The choice of GPL is intended to keep the project useful for research and
+to ensure that improvements made on top of Kimika flow back to the
+community rather than being absorbed into closed-source forks.
